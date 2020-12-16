@@ -116,7 +116,7 @@ http://www.templatemo.com/tm-515-eatery
 
   section {
     position: relative;
-    padding: 100px 0;
+    padding: 50px 0;
   }
 
   #team, 
@@ -395,7 +395,7 @@ http://www.templatemo.com/tm-515-eatery
     justify-content: center;
     flex-direction: column;
     text-align: left;
-    background-color: rgba(20,20,20,0.2);
+    /* background-color: rgba(20,20,20,0.2); */
     height: 100%;
     color: #fff;
     cursor: e-resize;
@@ -411,14 +411,18 @@ http://www.templatemo.com/tm-515-eatery
   }
 
   .slider .item-second {
-    background-image: url(../images/original/4.jpg);
+    background-image: url(../images/original/SECOND_PAGE.jpg);
   }
 
   .slider .item-first {
-    background-image: url(../images/original/11.jpg);
+    background-image: url(../images/original/FIRST_PAGE.jpg);
   }
 
   .slider .item-third {
+    background-image: url(../images/original/THIRD_PAGE.jpg);
+  }
+
+  .slider .item-fourth {
     background-image: url(../images/original/3.jpg);
   }
 
@@ -453,7 +457,7 @@ http://www.templatemo.com/tm-515-eatery
   }
 
   .about-info {
-    padding: 0 6em 5em 0;
+    padding: 0 6em 0 0;
   }
 
   .about-info .section-title {
@@ -903,7 +907,7 @@ http://www.templatemo.com/tm-515-eatery
     }
 
     .slider .item {
-      background-position: center;
+      background-position: left;
     }
 
     .about-info {
