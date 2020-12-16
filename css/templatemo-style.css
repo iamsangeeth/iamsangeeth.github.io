@@ -407,7 +407,8 @@ http://www.templatemo.com/tm-515-eatery
     background-repeat: no-repeat;
     background-attachment: local;
     background-size: cover;
-    height: 675px;
+    /* height: 675px; */
+    height: 47vw;
   }
 
   .slider .item-second {
@@ -895,8 +896,6 @@ http://www.templatemo.com/tm-515-eatery
       position: relative;
     }
   }
-
-
   @media only screen and (max-width: 992px) {
     section {
       padding: 60px 10px;
@@ -933,7 +932,13 @@ http://www.templatemo.com/tm-515-eatery
       margin-bottom: 50px;
     }
   }
-
+  /* @media (min-width:1500px)
+  {
+    .slider .item {
+      background-position: -40px;
+      height: 1340px;
+    }
+  } */
 
   @media only screen and (min-width: 768px) and (max-width: 991px) {
     .custom-navbar .nav li a {
