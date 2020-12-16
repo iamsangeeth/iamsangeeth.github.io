@@ -407,19 +407,19 @@ http://www.templatemo.com/tm-515-eatery
     background-repeat: no-repeat;
     background-attachment: local;
     background-size: cover;
-    height: 600px;
+    height: 675px;
   }
 
   .slider .item-second {
-    background-image: url(../images/original/SECOND_PAGE.jpg);
+    background-image: url(../images/original/SECOND_PAGE_1.jpg);
   }
 
   .slider .item-first {
-    background-image: url(../images/original/FIRST_PAGE.jpg);
+    background-image: url(../images/original/FIRST_PAGE_1.jpg);
   }
 
   .slider .item-third {
-    background-image: url(../images/original/THIRD_PAGE.jpg);
+    background-image: url(../images/original/THIRD_PAGE_1.jpg);
   }
 
   .slider .item-fourth {
@@ -899,7 +899,7 @@ http://www.templatemo.com/tm-515-eatery
 
   @media only screen and (max-width: 992px) {
     section {
-      padding: 60px 0;
+      padding: 60px 10px;
     }
 
     .custom-navbar .section-btn {
@@ -907,7 +907,9 @@ http://www.templatemo.com/tm-515-eatery
     }
 
     .slider .item {
-      background-position: left;
+      /* background-position: left; */
+      background-position: -40px;
+      height: 500px;
     }
 
     .about-info {
