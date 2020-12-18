@@ -402,25 +402,34 @@ http://www.templatemo.com/tm-515-eatery
     padding: 4em 0 0 2em;
   }
 
+  .web-image-view{
+    display: block !important;
+  }
+
+  .mobile-image-view{
+    display: none !important;
+  }
+
   .slider .item {
     background-position: inherit;
     background-repeat: no-repeat;
     background-attachment: local;
     background-size: cover;
+    width: 100%;
     /* height: 675px; */
-    height: 47vw;
+    /* height: 48vw; */
   }
 
   .slider .item-second {
-    background-image: url(../images/original/SECOND_PAGE_2.jpg);
+    background-image: url(../images/original/final/Santhimadom_Web-4A.jpg);
   }
 
   .slider .item-first {
-    background-image: url(../images/original/FIRST_PAGE_2.jpg);
+    background-image: url(../images/original/final/Santhimadom_Mob-2.jpg);
   }
 
   .slider .item-third {
-    background-image: url(../images/original/THIRD_PAGE_2.jpg);
+    background-image: url(../images/original/final/Santhimadom_Web-3.jpg);
   }
 
   .slider .item-fourth {
@@ -896,6 +905,16 @@ http://www.templatemo.com/tm-515-eatery
       position: relative;
     }
   }
+  @media only screen and (max-width: 580px) {
+    .web-image-view{
+      display: none !important;
+    }
+ 
+    .mobile-image-view{
+      display: block !important;
+    }
+  }
+
   @media only screen and (max-width: 992px) {
     section {
       padding: 60px 10px;
@@ -904,13 +923,6 @@ http://www.templatemo.com/tm-515-eatery
     .custom-navbar .section-btn {
       margin-left: 1em;
     }
-
-    .slider .item {
-      /* background-position: left; */
-      background-position: -40px;
-      height: 500px;
-    }
-
     .about-info {
       padding: 0;
     }
